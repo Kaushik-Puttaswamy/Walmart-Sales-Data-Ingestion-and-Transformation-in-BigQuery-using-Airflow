@@ -1,1 +1,1 @@
-# Walmart Sales Data Ingestion and UPSERT into BigQuery
+# Walmart Sales Data Ingestion and Transformation in BigQuery using Airflow
