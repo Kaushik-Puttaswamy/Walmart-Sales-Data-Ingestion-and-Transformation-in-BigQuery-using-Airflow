@@ -42,15 +42,15 @@ This project demonstrates an ETL (Extract, Transform, Load) pipeline for ingesti
 
 1.	Dataset and Table Creation:
 	
- •	A BigQuery dataset (walmart_dwh) is created to store Walmart sales data.
+ • A BigQuery dataset (walmart_dwh) is created to store Walmart sales data.
 	
- •	Three tables are created:
+ • Three tables are created:
 	  
-   •	merchants_tb: Contains merchant details.
+   • merchants_tb: Contains merchant details.
 	
-   •	walmart_sales_stage: A staging table for Walmart sales data.
+   • walmart_sales_stage: A staging table for Walmart sales data.
 	
-   •	walmart_sales_tgt: A target table with consolidated sales data and merchant information.
+   • walmart_sales_tgt: A target table with consolidated sales data and merchant information.
 	
 2.	Data Loading:
 	
