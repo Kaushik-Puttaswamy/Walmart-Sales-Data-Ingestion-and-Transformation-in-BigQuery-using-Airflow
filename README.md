@@ -1,1 +1,1 @@
-# Walmart-sales-data-ingestion-in-big-query-with-upsert-using-merge
+# Walmart Sales Data Ingestion and UPSERT into BigQuery
