@@ -46,11 +46,11 @@ This project demonstrates an ETL (Extract, Transform, Load) pipeline for ingesti
 	
 	• Three tables are created:
 	  
-		• merchants_tb: Contains merchant details.
+			• merchants_tb: Contains merchant details.
 	
-  		• walmart_sales_stage: A staging table for Walmart sales data.
+  			• walmart_sales_stage: A staging table for Walmart sales data.
 	
-		• walmart_sales_tgt: A target table with consolidated sales data and merchant information.
+			• walmart_sales_tgt: A target table with consolidated sales data and merchant information.
 	
 2.	Data Loading:
 	
