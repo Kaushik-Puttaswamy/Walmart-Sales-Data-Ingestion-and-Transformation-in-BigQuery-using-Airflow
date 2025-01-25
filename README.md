@@ -125,3 +125,21 @@ This project demonstrates an ETL (Extract, Transform, Load) pipeline for ingesti
 ### Airflow DAG Uploaded
 
 ![airflow_bigquery_dag_file_uploaded_in_airflow_bucket.png](https://github.com/Kaushik-Puttaswamy/Walmart-Sales-Data-Ingestion-and-Transformation-in-BigQuery-using-Airflow/blob/main/GCP_Console_Walmart_Salesdata_Ingestion_Screenshot/airflow_bigquery_dag_file_uploaded_in_airflow_bucket.png)
+
+## Technologies Used
+	
+ ## •	Google Cloud Platform (GCP):
+	
+ •	BigQuery
+	
+ •	Google Cloud Storage (GCS)
+	
+ ## •	Apache Airflow:
+	
+ •	DAG orchestration
+	
+ •	Operators: BigQueryCreateEmptyDatasetOperator, GCSToBigQueryOperator, etc.
+	
+ ## •	Python:
+	
+ •	For DAG scripting and SQL transformations.
