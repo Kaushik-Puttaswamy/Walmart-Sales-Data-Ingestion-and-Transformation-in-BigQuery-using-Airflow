@@ -40,17 +40,17 @@ This project demonstrates an ETL (Extract, Transform, Load) pipeline for ingesti
 
 ## Key Features
 
-1.	Dataset and Table Creation:
+1. Dataset and Table Creation:
 	
- • A BigQuery dataset (walmart_dwh) is created to store Walmart sales data.
+	• A BigQuery dataset (walmart_dwh) is created to store Walmart sales data.
 	
- • Three tables are created:
+	• Three tables are created:
 	  
-   • merchants_tb: Contains merchant details.
+		• merchants_tb: Contains merchant details.
 	
-   • walmart_sales_stage: A staging table for Walmart sales data.
+  		• walmart_sales_stage: A staging table for Walmart sales data.
 	
-   • walmart_sales_tgt: A target table with consolidated sales data and merchant information.
+		• walmart_sales_tgt: A target table with consolidated sales data and merchant information.
 	
 2.	Data Loading:
 	
@@ -77,3 +77,29 @@ This project demonstrates an ETL (Extract, Transform, Load) pipeline for ingesti
    •	Loads data from GCS to BigQuery.
 	
    •	Performs the MERGE operation to upsert data.
+
+
+## Steps to Execute
+
+1.	Setup the Environment:
+	
+ •	Install Apache Airflow with the required providers (google-cloud).
+	
+ •	Configure Airflow to connect to your GCP account.
+	
+ 
+2.	Upload Files to GCS:
+	
+ •	Place the merchants.json and walmart_sales.json files in appropriate GCS buckets.
+
+3.	Deploy the DAG:
+	
+ •	Place airflow_bigquery_dag.py in the Airflow DAGs directory.
+	
+ •	Start the Airflow scheduler and webserver.
+
+4.	Run the Pipeline:
+	
+ •	Trigger the DAG from the Airflow UI.
+	
+ •	Monitor the progress using the DAG graph.
