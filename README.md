@@ -42,9 +42,9 @@ This project demonstrates an ETL (Extract, Transform, Load) pipeline for ingesti
 
 1. Dataset and Table Creation:
 	
-• A BigQuery dataset (walmart_dwh) is created to store Walmart sales data.
+	• A BigQuery dataset (walmart_dwh) is created to store Walmart sales data.
 	
-• Three tables are created:
+	• Three tables are created:
 	  
 		• merchants_tb: Contains merchant details.
 	
@@ -54,11 +54,11 @@ This project demonstrates an ETL (Extract, Transform, Load) pipeline for ingesti
 	
 2.	Data Loading:
 	
- •	Data from GCS is loaded into BigQuery tables:
+ 	• Data from GCS is loaded into BigQuery tables:
 	
-   •	merchants.json → merchants_tb
+   		• merchants.json → merchants_tb
 	
-   •	walmart_sales.json → walmart_sales_stage
+   		• walmart_sales.json → walmart_sales_stage
 
 3.	Data Transformation:
 	
