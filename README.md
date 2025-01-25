@@ -46,31 +46,31 @@ This project demonstrates an ETL (Extract, Transform, Load) pipeline for ingesti
 	
 	• Three tables are created:
 	  
-			• merchants_tb: Contains merchant details.
+	• merchants_tb: Contains merchant details.
 	
-  			• walmart_sales_stage: A staging table for Walmart sales data.
+  	• walmart_sales_stage: A staging table for Walmart sales data.
 	
-			• walmart_sales_tgt: A target table with consolidated sales data and merchant information.
+	• walmart_sales_tgt: A target table with consolidated sales data and merchant information.
 	
 2.	Data Loading:
 	
  	• Data from GCS is loaded into BigQuery tables:
 	
-   		• merchants.json → merchants_tb
+   	• merchants.json → merchants_tb
 	
-   		• walmart_sales.json → walmart_sales_stage
+   	• walmart_sales.json → walmart_sales_stage
 
 3.	Data Transformation:
 	
- •	A SQL MERGE query performs an UPSERT to:
+ 	•	A SQL MERGE query performs an UPSERT to:
 	  
-   •	Update existing records in the target table (walmart_sales_tgt) based on the staging table.
+   	•	Update existing records in the target table (walmart_sales_tgt) based on the staging table.
 	
-   •	Insert new records if they don’t exist.
+  	 •	Insert new records if they don’t exist.
 
 4.	Orchestration with Airflow:
 	
- •	DAG (walmart_sales_etl_gcs) automates the workflow:
+ 	•	DAG (walmart_sales_etl_gcs) automates the workflow:
 	
    	•	Creates datasets and tables.
 	
