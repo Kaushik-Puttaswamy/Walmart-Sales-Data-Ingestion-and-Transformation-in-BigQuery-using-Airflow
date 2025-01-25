@@ -72,11 +72,11 @@ This project demonstrates an ETL (Extract, Transform, Load) pipeline for ingesti
 	
  •	DAG (walmart_sales_etl_gcs) automates the workflow:
 	
-   •	Creates datasets and tables.
+   	•	Creates datasets and tables.
 	
-   •	Loads data from GCS to BigQuery.
+   	•	Loads data from GCS to BigQuery.
 	
-   •	Performs the MERGE operation to upsert data.
+   	•	Performs the MERGE operation to upsert data.
 
 
 ## Steps to Execute
