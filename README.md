@@ -143,3 +143,9 @@ This project demonstrates an ETL (Extract, Transform, Load) pipeline for ingesti
  ## •	Python:
 	
  •	For DAG scripting and SQL transformations.
+
+ ## Conclusion
+
+This project provides a robust ETL pipeline for Walmart sales data using Google BigQuery and Airflow. By leveraging the power of cloud-based tools and automation, the pipeline ensures efficient data ingestion, transformation, and consolidation.
+
+Feel free to explore and enhance this pipeline for more complex workflows! 🚀
