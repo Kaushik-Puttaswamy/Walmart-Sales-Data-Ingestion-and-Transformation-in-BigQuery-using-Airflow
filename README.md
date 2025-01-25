@@ -42,9 +42,9 @@ This project demonstrates an ETL (Extract, Transform, Load) pipeline for ingesti
 
 1. Dataset and Table Creation:
 	
-	• A BigQuery dataset (walmart_dwh) is created to store Walmart sales data.
+• A BigQuery dataset (walmart_dwh) is created to store Walmart sales data.
 	
-	• Three tables are created:
+• Three tables are created:
 	  
 		• merchants_tb: Contains merchant details.
 	
@@ -103,3 +103,22 @@ This project demonstrates an ETL (Extract, Transform, Load) pipeline for ingesti
  	•	Trigger the DAG from the Airflow UI.
 	
  	•	Monitor the progress using the DAG graph.
+
+## GCP Console Project Screenshots
+
+### Airflow DAG Graph
+
+![Airflow_dag_graph.png](https://github.com/Kaushik-Puttaswamy/Walmart-Sales-Data-Ingestion-and-Transformation-in-BigQuery-using-Airflow/blob/main/GCP_Console_Walmart_Salesdata_Ingestion_Screenshot/Airflow_dag_graph.png)
+
+### Merchant Table Preview
+
+![Merchant_table_preview.png](https://github.com/Kaushik-Puttaswamy/Walmart-Sales-Data-Ingestion-and-Transformation-in-BigQuery-using-Airflow/blob/main/GCP_Console_Walmart_Salesdata_Ingestion_Screenshot/Merchant_table_preview.png)
+
+### Staging Table (Walmart Sales)
+
+![Walmart_sales_stage_table.png](https://github.com/Kaushik-Puttaswamy/Walmart-Sales-Data-Ingestion-and-Transformation-in-BigQuery-using-Airflow/blob/main/GCP_Console_Walmart_Salesdata_Ingestion_Screenshot/Walmart_sales_stage_table.png)
+
+### Target Table (Walmart Sales Consolidated)
+
+
+### Airflow DAG Uploaded
