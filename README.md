@@ -5,6 +5,7 @@ This project demonstrates an ETL (Extract, Transform, Load) pipeline for ingesti
 ## Project Architecture
 ![Project Architecture.png](https://github.com/Kaushik-Puttaswamy/Walmart-Sales-Data-Ingestion-and-Transformation-in-BigQuery-using-Airflow/blob/main/Project%20Architecture.png)
 
+
 ## Folder and File Structure
 .
 
